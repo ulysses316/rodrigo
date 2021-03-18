@@ -13,7 +13,7 @@ nav a:hover{
 }
 
 header{
-    margin-bottom: 50px;
+    margin-bottom: 61px;
 }
 
 .ajustar-nav{
@@ -46,12 +46,12 @@ header{
         width: 100vw;
     }
 
-    .header{
-        display: none;
+    .desktop{
+        display: none !important;
     }
-        
-    .center{
-        display: block;
+
+    .mobile{
+        display: block !important;
     }
 }
 
@@ -61,9 +61,13 @@ header{
     color: white;
 }
 
-.center{
+.mobile{
     text-align: center;
     display: none;
+}
+
+.mobile a{
+    padding: 10px 0;
 }
 
 .icono{
