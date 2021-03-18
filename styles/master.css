@@ -1,0 +1,72 @@
+body{
+    margin:0 5px;
+}
+
+nav{
+    height: 50px;
+}
+
+nav a:hover{
+    background-color: #0071bc;
+    color: white;
+    padding: 20px 20px;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.ajustar-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-columns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.two-columns div img{
+    width: 50vw;
+    height:250px;
+}
+
+.banner{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .two-columns{
+        flex-direction: column;
+    }
+
+    .two-columns div img{
+        width: 100vw;
+    }
+
+    .header{
+        display: none;
+    }
+        
+    .center{
+        display: block;
+    }
+}
+
+
+.section-blue{
+    background-color: #0071bc;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    display: none;
+}
+
+.icono{
+    position: absolute;
+    float: left;
+}
